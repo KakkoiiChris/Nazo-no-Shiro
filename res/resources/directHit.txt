@@ -1,0 +1,7 @@
+@You sliced the # $.%
+@You hit the # $ directly.%
+@You pummeled the # $.%
+@You jabbed the # $.%
+@You took the # $ down.%
+@You returned the # $'s favor.%
+@You taught the # $ a lesson.%

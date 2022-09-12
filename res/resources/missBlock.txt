@@ -1,0 +1,7 @@
+@The # $ smited you.%
+@The # $ demolished you.%
+@You stood no chance against the # $.%
+@The # $ was faster.%
+@The # $ found you wide open.%
+@You couldn't have avoided the # $'s attack.%
+@The # $ slammed your shield out of the way.%

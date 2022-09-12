@@ -1,0 +1,41 @@
+C,1,4,5,Seihon-Jou
+P,0,1,2
+R,0,0,0,North Annex C,11,10,true
+W,0,0,0,3,5,6
+R,0,0,1,North Annex A,5,4,true
+W,0,0,1,3,5
+R,0,0,2,North Hall,2,1,true
+W,0,0,2,3
+R,0,0,3,North Annex B,8,7,true
+W,0,0,3,3,4,5
+R,0,0,4,Foyer,13,12,true
+W,0,0,4,3,4,6
+R,0,1,0,Dressing Room,4,3,true
+W,0,1,0,3,6
+R,0,1,1,Royal Bedroom,3,2,true
+W,0,1,1,3,5
+R,0,1,2,Center Hall,1,0,false
+R,0,1,3,Throne Room,6,5,true
+W,0,1,3,3,5
+R,0,1,4,Sitting Room,10,9,true
+W,0,1,4,4,5
+R,0,2,0,Secret A,14,13,true
+W,0,2,0,4,6
+R,0,2,1,Children's Bedroom,9,8,true
+W,0,2,1,3,5,6
+R,0,2,2,South Hall,7,6,true
+W,0,2,2,5
+R,0,2,3,Study,12,11,true
+W,0,2,3,3,4,5
+R,0,2,4,Treasure Room,20,19,true
+W,0,2,4,3,4,6
+R,0,3,0,Secret B,15,14,true
+W,0,3,0,5,6
+R,0,3,1,Secret C,16,15,true
+W,0,3,1,3,5
+R,0,3,2,Secret D,17,16,true
+W,0,3,2,3,5
+R,0,3,3,Secret E,18,17,true
+W,0,3,3,3,5
+R,0,3,4,Secret F,19,18,true
+W,0,3,4,4,5

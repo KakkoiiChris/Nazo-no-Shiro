@@ -1,0 +1,30 @@
+                        [Nazo No Shiro]
+                    [XXXXX{================>
+
+	You wake up... slowly... your vision is blurred, and your
+cheek is moist. You can't discern anything, but the cold, 
+harsh floor greets your hands as you try to stand upright.
+As your vision grows clearer, the harder it is to take in 
+your surroundings. 
+	
+	It's a fairly large room: stone on all the walls, and 
+plank wood on the floor and ceiling. The room is barely lit 
+by the dim light of oriental-style lanterns. Each wall sports
+a wooden door emblazoned with brass dragons, as well as 
+posters with strange characters on them. 
+
+	You think to yourself, "Where am I?". You Reach into your
+pocket for clues, and pull out a ticket. 
+
+One look and it hits you.....
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[Salesperson]: Alright, here's your ticket. Please place 
+               this sticker around the handle of your 
+               suitcase, and we'll handle it for you.
+					
+        [You]: Ok... *rustle* ...here...thank you sir!
+		  
+[Salesperson]: Ok, now... *rip!* ... if you could just write
+               your name, gender, and date of birth here... 

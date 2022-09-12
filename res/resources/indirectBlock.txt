@@ -1,0 +1,7 @@
+@You barely dodged the # $.%
+@The # $ nearly struck you.%
+@The # $ sliced you somehow.%
+@The # $ caught you by surprise.%
+@The # $ hit you weakly.%
+@You were almost maimed by the # $.%
+@The # $'s attack couldn't have been closer.% 
