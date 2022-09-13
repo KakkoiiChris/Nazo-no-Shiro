@@ -1,15 +1,28 @@
+@rule       leaf [<>] false
+@rule_color leaf 6B9362
+@rule       joint [\[I\]] false
+@rule_color joint 4D4B3A
+@rule       segment = false
+@rule_color segment 898A74
+@rule       subtitle \*.*\* false
+@rule_color subtitle 1D697C
 >>[===I===I===I===I===I===I===I===I===I===I===I===I===I===I===]<<
+@color FAF2D6
         __                               __ _     _
+@color ECDF68
      /\ \ \__ _ _______    _ __   ___   / _\ |__ (_)_ __ ___
+@color BDA53C
     /  \/ / _` |_  / _ \  | '_ \ / _ \  \ \| '_ \| | '__/ _ \
+@color 866816
    / /\  / (_| |/ / (_) | | | | | (_) | _\ \ | | | | | | (_) |
+@color 48410A
    \_\ \/ \__,_/___\___/  |_| |_|\___/  \__/_| |_|_|_|  \___/
 
                       * CASTLE OF MYSTERY *
 
 >>[===I===I===I===I===I===I===I===I===I===I===I===I===I===I===]<<
 
+@color 7F7F7F
               Copyright (C) 2011-2022, KakkoiiChris
 
-%s
-
+@rules_clear
