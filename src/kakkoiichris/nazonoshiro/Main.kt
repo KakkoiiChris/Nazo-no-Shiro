@@ -36,7 +36,7 @@ fun main() {
 }
 
 private fun Console.mainMenu() {
-    val title = resources.getTXT("tlite").lines
+    val title = resources.getTXT("introA").lines
     
     val script = QuickScript(title)
     

@@ -1,30 +1,131 @@
-                        [Nazo No Shiro]
-                    [XXXXX{================>
+                          Nazo No Shiro
+                    [XXXXX{=================>
 
-	You wake up... slowly... your vision is blurred, and your
-cheek is moist. You can't discern anything, but the cold, 
-harsh floor greets your hands as you try to stand upright.
-As your vision grows clearer, the harder it is to take in 
-your surroundings. 
-	
-	It's a fairly large room: stone on all the walls, and 
-plank wood on the floor and ceiling. The room is barely lit 
-by the dim light of oriental-style lanterns. Each wall sports
-a wooden door emblazoned with brass dragons, as well as 
-posters with strange characters on them. 
+    You wake up\
+@pause 0.5
+.\
+@pause 0.55
+.\
+@pause 0.6
+. \
+@pause 0.65
+slowly\
+@pause 0.7
+.\
+@pause 0.8
+.\
+@pause 0.9
+. \
+@pause 2
+Your vision is blurred, and the
+harsh, cold ground meets your hands as you attempt to right
+yourself. Much to your bewilderment, as the haze over your eyes
+clears, your surroundings do not become any more familiar.
+@pause 15
 
-	You think to yourself, "Where am I?". You Reach into your
-pocket for clues, and pull out a ticket. 
+1) Stone walls
+@pause 1.5
+2) Stone floors
+@pause 1.5
+3) Stone ceiling
+@pause 1.5
+4) Stone doors\
+@pause 1.5
+?
+@pause 2
 
-One look and it hits you.....
+    You feel the door nearest to you.
+@pause 3
+
+    "Nope. Not stone."
+@pause 2
+
+    It is, however, densely wooden, and emblazoned by a brass
+border and a brass sigil of a dragon. Possibly a dragon? Maybe.
+@pause 10
+
+    "Nothing here is even remotely familiar," you remind yourself.
+@pause 3.5
+
+    In the bright, polished surface of the possible dragon's eye;
+a soft, warm, pink glow... You turn about face, to gaze upon
+sequentially spaced-out white and red pill-shaped lanterns. There
+is some sort of writing on them, but you are not familiar with
+the characters. At this point it begins to set in that, possibly,
+you are completely not familiar, and that you have no idea where
+in the world you might be.
+@pause 27
+
+    In a groggy attempt to catch up on the situation, you look
+around for clues. Nothing on the harsh, cold floor... \
+@pause 8
+or the
+stone walls... \
+@pause 2.5
+or the stone ceiling... \
+@pause 2.5
+or the not stone doors...
+@pause 2.5
+
+    "Perhaps in my pockets?"
+@pause 2
+
+    You reach into your jacket and feel a slip of paper. Without
+hesitation, you whip it out and glance it over.
+@pause 7
+
+One look and it hits you-
+@pause 2
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+"Welcome to Baltimore-Washington International Airport!"
+
+    "Alright, here's your ticket. Please place this sticker
+around the handle of your suitcase, and we'll handle it for
+you."
+
+"Ok... *rustle* ...here...thank you sir!"
+
+    "Ok, now... *rip!* ... if you could just write your name,
+gender, and date of birth here..."
+
+@input name X
+
+@input gender M/F/O
+
+@input dob DOB
+
+    "Alright, {name}! You're all set. Please make your way to gate
+25C, and enjoy your flight!"
+
+    "Thank You."
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[Salesperson]: Alright, here's your ticket. Please place 
-               this sticker around the handle of your 
-               suitcase, and we'll handle it for you.
-					
-        [You]: Ok... *rustle* ...here...thank you sir!
-		  
-[Salesperson]: Ok, now... *rip!* ... if you could just write
-               your name, gender, and date of birth here... 
+    You take yet another look at it...
+
+ ___________________________________________________________
+/  /\  |\ |  /\                                         |25C|
+| /--\ | \| /--\                                        |___|
+| ALL NIPPON AIRWAYS                                        |
+|___________________________________________________________/
+| Round-Trip to:                                            \
+ )    Narita-Shinagawa, Japan                               |
+|                                                           |
+| X:                                                        |
+|-----------------------------------------------------------|
+| DoB:                                                      |
+|-----------------------------------------------------------|
+| M/F:                                                     _|
+|_________________________________________________________|/
+@pause 8
+
+    "I'm in Japan..."
+
+    Suddenly, the center of the floor shoots up rapidly. And for
+a moment, the sounds come from beyond the walls. After some
+hesitation, you look down at the pedestal that just revealed
+itself. It seems to be some sort of puzzle.
+
+    "...you gotta be kidding."
