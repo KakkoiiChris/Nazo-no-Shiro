@@ -36,11 +36,67 @@ fun main() {
 }
 
 private fun Console.mainMenu() {
-    val title = resources.getTXT("introA").lines
+    val fileName = if (Math.random() < 0.001) "tlite" else "title"
+    
+    val title = resources.getTXT(fileName).lines
     
     val script = QuickScript(title)
     
-    script.run(this)
+    val new = "New Game"
+    val load = "Load Game"
+    val options = "Options"
+    val credits = "Credits"
+    val quit = "Quit"
     
-    pause()
+    var inMenu = true
+    
+    while (inMenu) {
+        script.run(this)
+        
+        var choosing = true
+        
+        while (choosing) {
+            val option = readOption(new, load, options, credits, quit)
+            
+            writeLine()
+            
+            when (option) {
+                new     -> {
+                    doNewGame()
+                    
+                    choosing = false
+                }
+                
+                load    -> {
+                    doLoadGame()
+                    
+                    choosing = false
+                }
+                
+                options -> doOptions()
+                
+                credits -> doCredits()
+                
+                quit    -> {
+                    choosing = false
+                    inMenu = false
+                }
+            }
+        }
+        
+        clear()
+    }
+}
+
+private fun Console.doNewGame() {
+    writeLine("New Game!")
+}
+private fun Console.doLoadGame() {
+    writeLine("Load Game!")
+}
+private fun Console.doOptions() {
+    writeLine("Options!")
+}
+private fun Console.doCredits() {
+    writeLine("Credits!")
 }
