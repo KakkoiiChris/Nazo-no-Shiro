@@ -77,7 +77,7 @@ hesitation, you whip it out and glance it over.
 One look and it hits you-
 @pause 2
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 "Welcome to Baltimore-Washington International Airport!"
 
@@ -101,7 +101,7 @@ gender, and date of birth here..."
 
     "Thank You."
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     You take yet another look at it...
 
@@ -110,7 +110,7 @@ gender, and date of birth here..."
 | /--\ | \| /--\                                        |___|
 | ALL NIPPON AIRWAYS                                        |
 |___________________________________________________________/
-| Round-Trip to:                                            \
+| Round-Trip to:                                            \\
  )    Narita-Shinagawa, Japan                               |
 |                                                           |
 | X:                                                        |

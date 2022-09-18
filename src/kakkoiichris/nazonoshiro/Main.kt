@@ -5,7 +5,7 @@ import kakkoiichris.kotoba.Font
 import kakkoiichris.kotoba.QuickScript
 import kakkoiichris.kotoba.util.Resources
 
-val resources = Resources("/resources");
+val resources = Resources("/resources")
 
 /**
  * Nazo-no-Shiro
@@ -36,7 +36,7 @@ fun main() {
 }
 
 private fun Console.mainMenu() {
-    val fileName = if (Math.random() < 0.001) "tlite" else "title"
+    val fileName = if (Math.random() < 0.001) "titleFunny" else "titleNormal"
     
     val title = resources.getTXT(fileName).lines
     
@@ -91,12 +91,15 @@ private fun Console.mainMenu() {
 private fun Console.doNewGame() {
     writeLine("New Game!")
 }
+
 private fun Console.doLoadGame() {
     writeLine("Load Game!")
 }
+
 private fun Console.doOptions() {
     writeLine("Options!")
 }
+
 private fun Console.doCredits() {
     writeLine("Credits!")
 }

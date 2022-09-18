@@ -4,20 +4,19 @@
 @rule_color joint 4D4B3A
 @rule       segment = false
 @rule_color segment 898A74
-@rule       subtitle \*.*\* false
-@rule_color subtitle 1D697C
 >>[===I===I===I===I===I===I===I===I===I===I===I===I===I===I===]<<
 @color FAF2D6
         __                                __ _     _
 @color ECDF68
      /\ \ \__ _ _ __ ___    _ __   ___   / _\ |__ (_)_______
 @color BDA53C
-    /  \/ / _` | '__/ _ \  | '_ \ / _ \  \ \| '_ \| |_  / _ \
+    /  \/ / _` | '__/ _ \  | '_ \ / _ \  \ \| '_ \| |_  / _ \\
 @color 866816
    / /\  / (_| | | | (_) | | | | | (_) | _\ \ | | | |/ / (_) |
 @color 48410A
    \_\ \/ \__,_|_|  \___/  |_| |_|\___/  \__/_| |_|_/___\___/
 
+@color 1D697C
                       * CASLTE OF MYSYERT *
 
 >>[===I===I===I===I===I===I===I===I===I===I===I===I===I===I===]<<
