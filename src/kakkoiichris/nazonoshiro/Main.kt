@@ -2,7 +2,6 @@ package kakkoiichris.nazonoshiro
 
 import kakkoiichris.kotoba.Console
 import kakkoiichris.kotoba.Font
-import kakkoiichris.kotoba.QuickScript
 import kakkoiichris.kotoba.util.Resources
 
 val resources = Resources("/resources")
@@ -38,9 +37,7 @@ fun main() {
 private fun Console.mainMenu() {
     val fileName = if (Math.random() < 0.001) "titleFunny" else "titleNormal"
     
-    val title = resources.getTXT(fileName).lines
-    
-    val script = QuickScript(title)
+    val script = resources.getQuickScript(fileName)
     
     val new = "New Game"
     val load = "Load Game"
