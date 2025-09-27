@@ -31,7 +31,9 @@ clears, your surroundings do not become any more familiar.
 @pause 1.5
 4) Stone doors\
 @pause 1.5
+@color FF0000
 ?
+@color FFFFFF
 @pause 2
 
     You feel the door nearest to you.

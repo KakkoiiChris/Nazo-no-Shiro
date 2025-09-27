@@ -23,6 +23,7 @@ class Viewport(val width: Int, val height: Int) : Renderable<NazoNoShiro> {
 
     var mapX = 8
     var mapY = 8
+    var mapS = 64
 
     var map = intArrayOf(
         1, 1, 1, 1, 1, 1, 1, 1,
@@ -74,7 +75,8 @@ class Viewport(val width: Int, val height: Int) : Renderable<NazoNoShiro> {
         game: NazoNoShiro,
         renderer: Renderer
     ) {
-        renderer.clearRect(view.bounds)
+        renderer.color = Colors.gray
+        renderer.fillRect(view.bounds)
 
         for (y in 0..<mapY) {
             for (x in 0..<mapX) {
@@ -101,18 +103,19 @@ class Viewport(val width: Int, val height: Int) : Renderable<NazoNoShiro> {
             (py + sin(pa) * 10).toInt()
         )
 
-        drawRays(renderer)
+        drawRays2D(renderer)
     }
 
     private fun dist(ax: Double, ay: Double, bx: Double, by: Double, ang: Double) =
         sqrt((bx - ax) * (bx - ax) + (by - ay) * (by - ay))
 
-    private fun drawRays(renderer: Renderer) {
+    private fun drawRays2D(renderer: Renderer) {
         var ra = pa - DR * 30
         var rx = 0.0
         var ry = 0.0
         var xo = 0.0
         var yo = 0.0
+        var disT = 0.0
 
         for (r in 0..<60) {
             if (ra < 0) {
@@ -220,15 +223,39 @@ class Viewport(val width: Int, val height: Int) : Renderable<NazoNoShiro> {
             if (distH < distV) {
                 rx = hx
                 ry = hy
+                disT = distH
+                renderer.color = Colors.red
             }
             else {
                 rx = vx
                 ry = vy
+                disT = distV
+                renderer.color = Colors.green
             }
 
-            renderer.color = Colors.red
             renderer.stroke = BasicStroke(1F)
             renderer.drawLine(px.toInt(), py.toInt(), rx.toInt(), ry.toInt())
+
+            var ca = pa - ra
+            if (ca < 0) {
+                ca += PI * 2
+            }
+            if (ca >= PI * 2) {
+                ca -= PI * 2
+            }
+
+            disT *= cos(ca)
+
+            var lineH = (mapS * 320) / disT
+
+            if (lineH > 320) {
+                lineH = 320.0
+            }
+
+            var lineO = 160 - lineH / 2
+
+            renderer.stroke = BasicStroke(8F)
+            renderer.drawLine(r * 8 + 530, lineO.toInt(), r * 8 + 530, (lineH + lineO).toInt())
 
             ra += DR
         }
