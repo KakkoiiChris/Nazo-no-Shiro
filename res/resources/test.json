@@ -1,0 +1,23 @@
+{
+  "name": "Umezawa Tetsuro",
+  "dialog": {
+    "init": {
+      "say": "...",
+      "responses": [
+        {
+          "regex": "(hey|hello)(\\s+there)?",
+          "goto": "shy"
+        }
+      ]
+    },
+    "shy": {
+      "say": "...",
+      "responses": [
+        {
+          "regex": "",
+          "goto": ""
+        }
+      ]
+    }
+  }
+}
